@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Send, CheckCircle, Menu, X, Star, Fuel, ShieldCheck, Wrench, FileText, Globe } from "lucide-react";
 import "./style.css";
-import heroCar from "./assets/hero-car.png";
+import heroBanner from "./assets/hero-banner.png";
 import corolla from "./assets/corolla.png";
 import prius from "./assets/prius.png";
 import logoShowcase from "./assets/logo-showcase.png";
