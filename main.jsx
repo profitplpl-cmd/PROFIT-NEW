@@ -3,11 +3,7 @@ import { createRoot } from "react-dom/client";
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Send, CheckCircle, Menu, X, Star, Fuel, ShieldCheck, Wrench, FileText, Globe } from "lucide-react";
 import "./style.css";
-import heroCar from "./assets/hero-car.png";
-import corolla from "./assets/corolla.png";
-import prius from "./assets/prius.png";
-import logoShowcase from "./assets/logo-showcase.png";
-import rearWindow from "./assets/rear-window.png";
+
 
 const T = {
   pl: {offer:"Oferta", fleet:"Flota", req:"Wymagania", apply:"Zgłoszenie", heroTop:"PRO-FIT Rent & Drive • Warszawa / Ząbki", hero:"Auta dla kierowców Uber i Bolt", sub:"Nowoczesny wynajem aut hybrydowych gotowych do pracy. Toyota Prius+, Corolla Hybrid i inne modele — od 400 zł tygodniowo.", cta:"Zacznij zarabiać", call:"Zadzwoń", price:"od 400 zł / tydzień", why:"Premium obsługa dla kierowców", fleetTitle:"Dostępne auta", reqTitle:"Co jest potrzebne?", applyTitle:"Zgłoszenie kierowcy", name:"Imię i nazwisko", phone:"Telefon", exp:"Doświadczenie / pytanie", send:"Wyślij zgłoszenie na WhatsApp", reviews:"Opinie kierowców", footer:"PRO-FIT Ireneusz Pleskot"},
