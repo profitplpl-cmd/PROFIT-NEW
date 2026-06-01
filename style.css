@@ -42,14 +42,16 @@ box-shadow:0 40px 120px rgba(250,204,21,.14),
 inset 0 0 0 1px rgba(255,255,255,.04);
 max-width:390px;
 margin-left:auto;
-margin-top:70px;
-  transform:scale(.9);
+margin-top:40px;
+  overflow:visible;
 }
 .heroImage img{
 width:100%;
+  height:auto;
 display:block;
-max-height:280px;
-object-fit:cover;
+max-height:none;
+  object-fit:contain;
+
 
 }
 
